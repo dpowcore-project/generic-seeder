@@ -171,7 +171,7 @@ Instead of using the DNS seeder app to run your own DNS server, you can alternat
 
 ```
 sudo apt-get install python3 python3-pip
-sudo pip3 install cloudflare
+pip install cloudflare==2.19.*
 ```
 
 You must also fill in the Cloudflare API config section at the bottom of the `settings.conf` file.
